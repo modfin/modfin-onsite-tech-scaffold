@@ -30,6 +30,15 @@ For the actual interview, programs will typically be required to handle the foll
 
 So make sure to brush up your i/o game :)
 
+### Setup
+
+This repo contains git submodules: use  
+```sh
+git submodule init
+git submodule update
+```
+to download the testing framework
+
 ### Running the tests
 
 `./run_tests.sh` runs all tests in the `test/` directory. Can you spot and fix the error?
