@@ -12,13 +12,15 @@ Candidates are free to bring their own computers if they want and will get acces
 
 Two example programs ("solutions") can be viewed in this repo:
 
-* [00_example.js](00_example.js)
-* [01_example.sh](01_example.sh)
+* [00_js.js](00_js.js)
+* [01_sh.sh](01_sh.sh)
+* [02_go.go](02_go.go)
 
 these have accompanying tests:
 
-* [test/00_example_js_test.bats](test/00_example_js_test.bats)
-* [test/01_example_sh_test.bats](test/01_example_sh_test.bats)
+* [test/00_js_test.bats](test/00_js_test.bats)
+* [test/01_sh_test.bats](test/01_sh_test.bats)
+* [test/02_go_test.bats](test/02_go_test.bats)
 
 Solutions can be specified as env vars in [.env](.env) or referencing the executables directly in their respective test.
 
