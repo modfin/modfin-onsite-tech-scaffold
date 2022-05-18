@@ -12,13 +12,13 @@ Candidates are free to bring their own computers if they want and will get acces
 
 Two example programs ("solutions") can be viewed in this repo:
 
-* [example.sh](example.sh)
-* [example.js](example.js)
+* [00_example.js](00_example.js)
+* [01_example.sh](01_example.sh)
 
 these have accompanying tests:
 
-* [test/example_sh_test.bats](test/example_sh_test.bats)
-* [test/example_js_test.bats](test/example_js_test.bats)
+* [test/00_example_js_test.bats](test/00_example_js_test.bats)
+* [test/01_example_sh_test.bats](test/01_example_sh_test.bats)
 
 Solutions can be specified as env vars in [.env](.env) or referencing the executables directly in their respective test.
 
@@ -42,3 +42,7 @@ to download the testing framework
 ### Running the tests
 
 `./run_tests.sh` runs all tests in the `test/` directory. Can you spot and fix the error?
+
+### Run a specific test
+
+Tests are expected to reside in test/ and have the naming convention xx_<name>_test.bats. To run this use ./run_test.sh <name>. Each test expect there to be an environment variable in .env specifying how to start the program. This should be named as <NAME>_CMD.

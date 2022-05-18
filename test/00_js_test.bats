@@ -6,10 +6,10 @@ setup() {
 }
 
 @test "can run eaxmple script" {
-    run $SH_CLI_UNDER_TEST
+    run $JS_CMD
 }
 
 @test "gives correct output" {
-    run $SH_CLI_UNDER_TEST
-    assert_output 'hello'
+    run $JS_CMD
+    assert_output 'hello from javascript'
 }

@@ -6,10 +6,10 @@ setup() {
 }
 
 @test "can run eaxmple script" {
-    run $JS_CLI_UNDER_TEST
+    run $GO_CMD
 }
 
 @test "gives correct output" {
-    run $JS_CLI_UNDER_TEST
-    assert_output 'hello from javascript'
+    run $GO_CMD
+    assert_output 'hello from go'
 }
