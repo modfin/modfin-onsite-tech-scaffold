@@ -10,7 +10,7 @@ The coding challenges are in the form of CLI style programs that will then be te
 
 Candidates are free to bring their own computers if they want and will get access to a similar repo as this one, but with actual meaningful tests.
 
-Two example programs ("solutions") can be viewed in this repo:
+Three example programs ("solutions") can be viewed in this repo:
 
 * [00_js.js](00_js.js)
 * [01_sh.sh](01_sh.sh)
