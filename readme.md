@@ -48,3 +48,7 @@ to download the testing framework
 ### Run a specific test
 
 Tests are expected to reside in [test/](test/) and have the naming convention `xx_<name>_test.bats`. To run use `./run_test.sh <name>`. Each test expect there to be an environment variable in [.env](.env) specifying how to start the program. This should be named as `<NAME>_CMD`.
+
+## Rules
+
+You are free to use search engines, stackoverflow etc and any other helpful tooling. However, you should be able to reason about your code so copy&paste of entire solutions is probably not a good idea.
